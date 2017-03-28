@@ -1,0 +1,14 @@
+name: mnist
+owner: amberfly
+
+resource:
+  memory: 512m
+  gpu: false
+
+language:
+  name: python
+  version: '3.6'
+
+framework:
+  name: tensorflow
+  version: '1.0.1'
